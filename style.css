@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(161, 154, 142);
+   }
+   h1 {
+    color: rgb(250, 247, 72);
+   }
+   p{
+    color: rgb(217, 221, 247);
+   }
+
+   .relative {
+    position: relative;
+    width: 3000px;
+    height: 1500px;
+   }
+
+   p {
+    border: 1px solid rgb(13, 88, 3);
+   }
+   p {
+    margin: 20px;
+   }
+   div {
+    width: 300px;
+    height: 150px;
+   }
+   .elemento {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+   }
+   h1 {
+    color: red;
+   }
