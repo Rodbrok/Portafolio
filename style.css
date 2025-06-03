@@ -1,42 +1,119 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(161, 154, 142);
-   }
-   h1 {
-    color: rgb(250, 247, 72);
-   }
-   p{
-    color: rgb(217, 221, 247);
-   }
+    font-style: initial;
+    font-family: sans-serif, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("fondo4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #032038;
+    text-align: left;
+    padding: 100px 0;
+}
 
-   .relative {
+    
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color:#4f506348;  /* fondo encabezado  */
+    color: #081f42ad;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: hsla(216, 42%, 30%, 0.301);  /* boton off*/
+    color: #051c4ec7; /* texto, avanzar*/
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.8s ease;
+}
+
+.btn:hover {
+    background-color: hsla(180, 7%, 66%, 0.473);  /* boton on*/
+}
+
+h1 {
+    color: rgba(4, 20, 58, 0.726); 
+}
+
+p {
+    color: rgb(1, 1, 39);
+    font-size: 16px;
+    border: 1px solid rgb(13, 88, 3);
+    margin: 20px;
+}
+
+.relative {
     position: relative;
     width: 3000px;
     height: 1500px;
-   }
+}
 
-   p {
-    border: 1px solid rgb(13, 88, 3);
-   }
-   p {
-    p {
-    color: blue;
-    font-size: 16px;
-    }
-
-    margin: 20px;
-   }
-   div {
+div {
     width: 300px;
     height: 150px;
-   }
-   .elemento {
+}
+
+.elemento {
     width: 200px;
     height: 100px;
     padding: 10px;
     border: 2px solid black;
     margin: 20px;
-   }
-   h1 {
-    color: red;
-   }
+}
+
+.contenido {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.separado {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 28px; 
+    color: #333; 
+}
+
+
+
+ul, ol, form, p, q, a, h3, h4, h5 {
+    margin-left: 20px;
+}
+
+.hobbies p {
+    border: 1px solid #0d5831;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+
+.perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute; 
+    top: 20px;
+    left: 20px; 
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  footer {
+    background-color: #4f506348;
+    color: #fff;
+    text-align: center;
+    padding: 10px 30;
+}
