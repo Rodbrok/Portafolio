@@ -30,7 +30,7 @@ header {
 .btn {
     display: inline-block;
     background-color: hsla(216, 42%, 30%, 0.301);  /* boton off*/
-    color: #051c4ec7; /* texto, avanzar*/
+    color: #051c4ec7; /* texto avanzar*/
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
